@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+  padding: 0;
+  scroll-snap-type: none;
+  overflow-x: hidden;
+}
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.logo {
+  position: absolute;
+  top: 50px;
+  color: white;
+  float: left;
+  left: 150px;
+}
+.fimg {
+  position: absolute;
+  top: 0;
+  height: auto;
+  width: 100%;
+}
+.navbar {
+  position: relative;
+  display: inline-flex;
+  flex-direction: row;
+  list-style: none;
+  float: right;
+  top: 10px;
+  right: 90px;
+}
+.navbar li {
+  color: white;
+  padding: 30px;
+  font-size: medium;
+}
+.navbar li:hover {
+  border-bottom: 2px solid white;
+}
+.first {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: absolute;
+  color: white;
+  top: 280px;
+  left: 150px;
+  font-size: 50px;
+  font-weight: lighter;
+  border: 1px solid white;
+  padding-left: 25px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 500px;
+  text-align: left;
+}
+.simg {
+  position: absolute;
+  top: 750px;
+  left: 130px;
+}
+.secound {
+  background-color: white;
+  position: absolute;
+  top: 60em;
+  left: 42em;
+  width: 600px;
+  height: 300px;
+  padding-left: 45px;
+  padding-top: 20px;
+}
+.secound h1 {
+  text-transform: uppercase;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  padding-left: 35px;
+  font-size: 3em;
+}
+.secound p {
+  padding-left: 35px;
+  color: gray;
+  font-size: 20px;
+}
+.our {
+  position: relative;
+  top: 35em;
+  left: 3em;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-weight: lighter;
+}
+button {
+  position: relative;
+  top: 85em;
+  left: 473px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background: white;
+  border: 1px solid black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 25px;
+  padding-left: 25px;
+  float: right;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+button:hover {
+  background: black;
+  color: white;
+}
+
+.fline {
+  position: relative;
+  top: 93em;
+  padding-left: 110px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.fline li {
+  padding: 15px;
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+
+.sline {
+  position: relative;
+  top: 88em;
+  padding-left: 110px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.sline li {
+  padding: 15px;
+  opacity: 1;
+  display: block;
+  height: auto;
+  backface-visibility: hidden;
+}
+.sline img
+{
+    transition: 0.5s ease;
+}
+.fline li:hover img{
+  opacity: 0.4;
+}
+.fline li:hover h4
+{
+    color:black;
+}
+.sline li:hover img{
+    opacity: 0.4;
+  }
+.sline li:hover h4
+{
+    color:black;
+}
+
+h4 {
+  text-transform: uppercase;
+  position: relative;
+  top: -126px;
+  left: 37px;
+  font-size: 38px;
+  font-weight: 100;
+  color: white;
+}
+
+.footer {
+  position: relative;
+  top: 100em;
+  bottom: 0;
+  height: 11em;
+  color: white;
+  justify-content: center;
+  align-content: center;
+  background: black;
+}
+.footer h3 {
+  position: relative;
+  font-size: 30px;
+  top: 2em;
+  left: 4em;
+  font-family: cursive;
+}
+.smedia {
+  position: absolute;
+  display: inline-flex;
+  list-style: none;
+  left: 66em;
+}
+.smedia li {
+  padding: 7px;
+}
+
+.footerlist {
+  position: absolute;
+  display: inline-flex;
+  list-style: none;
+  top: 101px;
+  left: 75px;
+}
+.footerlist li {
+  padding: 10px;
+  font-size: medium;
+}
+.footerlist li:hover {
+  border-bottom: 2px solid white;
+}
+.footer p {
+  position: absolute;
+  float: right;
+  left: 55em;
+  top: 9em;
+  color: gray;
+  font-size: small;
+}
+.footer a {
+  color: gray;
+}
